@@ -90,7 +90,6 @@ speed avg:    13.96 MiB/s = 14.64 MB/s
 
 ![](./img/disk_performance_avg.png)
 
-
 ##### 1 disk
 
 ```
