@@ -44,7 +44,7 @@ user    63m4.060s
 sys     6m6.023s
 ```
 
-## FreeBSD 14.1-RELEASE GENERIC kernel build
+### FreeBSD 14.1-RELEASE GENERIC kernel build
 
 ```
        77.90 real      4134.99 user       290.47 sys
