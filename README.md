@@ -2,7 +2,9 @@
 
 Tested on Linux 6.11.0-8-generic kernel.
 
-## Passmark Test
+## CPU
+
+### Passmark Test
 
 ```
                    PassMark PerformanceTest Linux (11.0.1002)
@@ -34,6 +36,26 @@ Memory Mark:                       2517
 --------------------------------------------------------------------------------
 ```
 
+### linux-6.14-rc5 build
+
+```
+real    1m23.036s
+user    63m4.060s
+sys     6m6.023s
+```
+
+## FreeBSD 14.1-RELEASE GENERIC kernel build
+
+```
+       77.90 real      4134.99 user       290.47 sys
+--------------------------------------------------------------
+>>> Kernel build for GENERIC completed on Thu Mar 20 17:51:05 CET 2025
+--------------------------------------------------------------
+>>> Kernel(s)  GENERIC built in 78 seconds, ncpu: 72, make -j72
+--------------------------------------------------------------
+```
+
+
 ## Disks
 
 These are maximum throughput tests. All disks read/written 1GiB in parallel
@@ -59,6 +81,13 @@ speed avg:    13.96 MiB/s = 14.64 MB/s
 ```
 
 ### SAS HBA controller (Dell H200e) <-> Fujitsu Eternus (10K - 10K.5 SAS HDDs)
+
+#### Graphs - 1st total, 2nd avg per disk (below more detailed)
+
+![](./img/disk_performance.png)
+
+![](./img/disk_performance_avg.png)
+
 
 ##### 1 disk
 
