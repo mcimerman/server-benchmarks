@@ -82,9 +82,11 @@ speed avg:    13.96 MiB/s = 14.64 MB/s
 
 ### SAS HBA controller (Dell H200e) <-> Fujitsu Eternus (10K - 10K.5 SAS HDDs)
 
-#### Graphs - 1st total, 2nd avg per disk (below more detailed)
+#### Total parallel throughput
 
 ![](./img/disk_performance.png)
+
+#### Average speeds per disk (calculated as Total parallel throughput (division) n)
 
 ![](./img/disk_performance_avg.png)
 
